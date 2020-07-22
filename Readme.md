@@ -32,5 +32,11 @@ At the time of writing July 2020 those has been checked
 
 looks there is no mongodb odm for django available at the present time.
 
+If we are happy to remove the odm and send query directly to the driver,
+sacrificing the validation as well than those are the drivers tha can be used to create
+mongodb queries.
+
+https://pymongo.readthedocs.io/en/stable/
+
 ## Todo
 Add the tests
